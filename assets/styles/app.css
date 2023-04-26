@@ -1,0 +1,105 @@
+body {
+    background-color: #81c3d0;
+    margin: 0 auto;
+}
+
+.main {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 60%;
+    background-color:rgb(227, 241, 245);
+}
+
+h1 {
+    border-bottom: 4px double #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-header {
+    background-size: cover;
+    height: 270px;
+}
+
+.site-title {
+    margin: 20px 20px;
+    font-family: fantasy;
+    font-size: 3em;
+    color: white;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: #19414A;
+    display: inline-block;
+    padding: 0.2em 1em;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.img {
+    margin-top: 10px;
+    width: 400px;
+    margin: auto;
+}
+
+.two-col-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width:900px;
+    margin: 0 auto;
+}
+
+.two-col-layout > .main {
+    width: calc(100% / 16 * 12); /* 12/16 width */
+}
+
+.two-col-layout > .aside {
+    width: calc(100% / 16 * 4); /* 4/16 width */
+}
+
+.aside {
+    background-color: #dddfbc;
+    border-right: 1px solid #ccc;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 24px;
+}
+
+.aside h4 {
+    border-bottom: 1px solid #ccc;
+    font-family: Calibri;
+}
+
+.aside ul {
+    list-style-type: square;
+}
+
+.aside li {
+    padding: 0.2em;
+}
+
+.footer {
+    margin-top: 2em;
+    color: aliceblue;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    background-color: #04375c;
+}
+
+.datum p {
+    font-size: 2em;
+    color: rgb(107, 9, 199);
+}

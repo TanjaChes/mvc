@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Magic number{% endblock %}
+
+{% block body %}
+    <main class="main">
+        <h1>Today is a Lucky Day!</h1>
+        <div class="datum">
+            <p>Idag är det {{ today }}.</p>
+            <p>Det är {{ weekday }}, vecka {{ weeknumber }}.</p>
+            <img class="img" src="{{ asset('img/{{ weekday }}.jpg') }}" alt="">
+        </div>
+    </main>
+
+{% endblock %}
